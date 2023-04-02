@@ -35,7 +35,7 @@ namespace Temperature
             tempInFah = Convert.ToDouble(textBox1.Text);
             tempInCel = (0.556) * (tempInFah - 32);
 
-            this.textBox2.Text = tempInCel.ToString();
+            this.textBox2.Text = Convert.ToString(tempInCel);
         }
     }
 }
